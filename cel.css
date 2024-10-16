@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px){
+
+  #menu{
+    display: block;
+  }
+
+  .ocultar{
+    display: none;
+  }
+
+  nav{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  nav a{
+    width: 100%;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 2px #28557A dotted;
+    padding: 15px 25px;
+  }
+
+  section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section article{
+    order: 1;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  section figure{
+    display: none;
+  }
+
+  section article h1{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  section article h3{
+    text-align: center;
+  }
+
+  section figure{
+    order: 0;
+    width: 100%;
+    padding: 5px;
+  }
+
+
+}
